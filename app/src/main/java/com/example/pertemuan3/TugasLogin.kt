@@ -32,13 +32,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize()
         )
 
+
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(top = 50.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Header
+
             Text(
                 text = "Login",
                 color = Color.Blue,
@@ -69,7 +70,6 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 fontSize = 16.sp
             )
-
             Text(
                 text = "Keisha Shendy Fadhillah Arrafli",
                 color = Color.Blue,
@@ -77,7 +77,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontSize = 18.sp
             )
             Text(
-                text = "20240140281", // Ganti dengan NIM Anda
+                text = "20240140281",
                 color = Color.Black,
                 fontWeight = FontWeight.Bold,
                 fontSize = 20.sp
@@ -92,5 +92,8 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .size(250.dp)
+                    .clip(CircleShape)
             )
-
+        }
+    }
+}
