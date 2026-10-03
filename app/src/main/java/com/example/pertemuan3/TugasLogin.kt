@@ -76,4 +76,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 fontSize = 18.sp
             )
+            Text(
+                text = "20240140281", // Ganti dengan NIM Anda
+                color = Color.Black,
+                fontWeight = FontWeight.Bold,
+                fontSize = 20.sp
+            )
+
+            Spacer(modifier = Modifier.height(30.dp))
 
