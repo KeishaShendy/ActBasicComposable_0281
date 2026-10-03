@@ -70,3 +70,10 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontSize = 16.sp
             )
 
+            Text(
+                text = "Keisha Shendy Fadhillah Arrafli",
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold,
+                fontSize = 18.sp
+            )
+
