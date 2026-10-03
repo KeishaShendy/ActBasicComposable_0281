@@ -31,3 +31,10 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
+
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 50.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
