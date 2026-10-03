@@ -20,8 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pertemuan3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // Panggil composable layout utama dengan padding dari Scaffold
-                    TataLetakBoxColumnRow(
+                    // Panggil composable TugasLogin di sini
+                    TugasLogin(
                         modifier = Modifier.padding(paddingValues = innerPadding)
                     )
                 }
