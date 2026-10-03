@@ -85,3 +85,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(30.dp))
 
+            // Gambar Ka'bah
+            Image(
+                painter = painterResource(id = R.drawable.gambar_kaabah),
+                contentDescription = "Gambar Ka'bah",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(250.dp)
+            )
+
