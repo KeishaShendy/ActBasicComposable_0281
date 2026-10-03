@@ -38,3 +38,17 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 .padding(top = 50.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            // Header
+            Text(
+                text = "Login",
+                color = Color.Blue,
+                fontSize = 32.sp,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                text = "Ini adalah halaman login,",
+                color = Color.White,
+                fontSize = 14.sp
+            )
+
+            Spacer(modifier = Modifier.height(30.dp))
