@@ -62,3 +62,11 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(20.dp))
 
+            // Teks Nama dan NIM
+            Text(
+                text = "Nama",
+                color = Color.Red,
+                fontWeight = FontWeight.Bold,
+                fontSize = 16.sp
+            )
+
